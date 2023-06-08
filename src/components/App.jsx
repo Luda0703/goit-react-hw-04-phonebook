@@ -44,12 +44,7 @@ export function App() {
       return;
     }
     setContacts(prevContacts => [...prevContacts, data]);
-    
-    // setContacts(prevContacts => ({
-    //   contacts: [data, ...prevContacts.contacts]
-     
-    //  }))
-   
+
   }
 
   return (
